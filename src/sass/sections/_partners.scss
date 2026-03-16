@@ -1,0 +1,13 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+.partners {
+  margin-block: calc(8 * token.$gutter);
+
+  .partners__list {
+    @include mix.respond(xl) {
+      gap: calc(3 * token.$gutter);
+      justify-content: center;
+    }
+  }
+}

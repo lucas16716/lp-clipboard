@@ -1,0 +1,21 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+.features__container { margin-bottom: token.$section-pad; }
+.features__description { max-width: 62ch; }
+.features__layout {
+    padding-inline: token.$gutter;
+    margin-bottom: calc(2 * token.$section-pad);
+    @include mix.flex($direction: row, $justify: start, $align: center, $gap: calc(4 * token.$gutter));
+    @include mix.respond(xxl) { flex-direction: column; }
+    @include mix.respond(sm) { gap: calc(2 * token.$gutter) } 
+}
+
+.features__list { 
+    @include mix.flex($direction: column, $justify: null, $align: null, $gap: calc(2 * token.$gutter));
+    @include mix.respond(xxl) { flex-direction: row; }
+    @include mix.respond(xl) { text-align: center; }
+    @include mix.respond(md) { flex-direction: column; }
+    
+    p { max-width: 35ch; margin-top: calc(0.5 * token.$gutter); }
+}

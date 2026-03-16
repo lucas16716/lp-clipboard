@@ -1,0 +1,17 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+.supercharge {
+  padding-inline: token.$gutter;
+  margin-block: calc(4 * token.$gutter);
+
+  .supercharge__list {
+    margin-top: calc(2 * token.$gutter);
+
+    p { max-width: 35ch; }
+
+    @include mix.respond(xl) { 
+      gap: calc(2 * token.$gutter);
+    }
+  }}
+

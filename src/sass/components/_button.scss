@@ -1,5 +1,6 @@
 @use "../abstracts/tokens" as token;
 @use "../abstracts/mixins" as mix;
+@use "../abstracts/functions" as fn;
 
 // ===================================================
 // AXIS — BUTTON (Structural Component)
@@ -22,6 +23,15 @@ $padding-btn-lg:  token.$space-ui-12 token.$space-ui-24;
 $padding-btn-xl:  token.$space-ui-16 token.$space-ui-32;
 
 // ---------------------------------------------------
+// LP Clipboard - Semantic Color Button Tokens
+// ---------------------------------------------------
+$color-primary:   token.$green-500;
+$color-secondary: token.$blue-100;
+$color-text-btn:  token.$white;
+$color-text-btn-ghost: token.$gray-700;
+$color-social-btn-hover: brightness(0) saturate(100%) invert(56%) sepia(48%) saturate(617%) hue-rotate(122deg) brightness(99%) contrast(88%);
+
+// ---------------------------------------------------
 // Button Default
 // ---------------------------------------------------
 .button {
@@ -29,7 +39,7 @@ $padding-btn-xl:  token.$space-ui-16 token.$space-ui-32;
 
   padding: 0;
   background-color: transparent;
-  border: 1px solid currentColor;
+  color: $color-text-btn;
   
   line-height: $line-height-btn;
   text-decoration: none;
@@ -38,16 +48,21 @@ $padding-btn-xl:  token.$space-ui-16 token.$space-ui-32;
   cursor: pointer;
 
   transition:
-    background-color $transition-btn,
-    color $transition-btn,
-    border-color $transition-btn,
     box-shadow $transition-btn,
-    transform $transition-btn;
+    filter $transition-btn,
+    transform $transition-btn,
+    background-color $transition-btn;  
 
   // ---------------------------------------------------
   // Button Disabled
   // ---------------------------------------------------
   &:disabled { cursor: not-allowed; opacity: $op-dsbld-btn; }
+
+  // ---------------------------------------------------
+  // Button Type (required)
+  // ---------------------------------------------------
+  &.is-primary   { background-color: $color-primary; &:hover { background-color: fn.color-dark($color-primary, 10%); box-shadow: 0 0 15px rgba($color-primary, 0.6); }  }
+  &.is-secondary { background-color: $color-secondary; &:hover { background-color: fn.color-dark($color-secondary, 10%); box-shadow: 0 0 15px rgba($color-secondary, 0.6); }  }
 
   // ---------------------------------------------------
   // Sizes Modifiers (required)
@@ -67,5 +82,11 @@ $padding-btn-xl:  token.$space-ui-16 token.$space-ui-32;
   // Variant Modifiers 
   // ---------------------------------------------------
   &.is-pill { border-radius: $rd-full-round; }
-  &.is-ghost { text-decoration: underline; border: none; }
+  &.is-ghost { border: none; color: $color-text-btn-ghost; &:hover { text-decoration: underline; } }
+
+  // ---------------------------------------------------
+  // LP Clipboard - Footer Buttons
+  // ---------------------------------------------------
+  &.social-link { &:hover { filter: $color-social-btn-hover; } }
+  &.signature { color: $color-text-btn-ghost; font-weight: 800; &:hover { transform: translateY(-3px); } }
 }

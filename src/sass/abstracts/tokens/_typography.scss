@@ -7,23 +7,23 @@
 // Font Size Scale
 // Modular Proportion: Major Third (1.25) + Traditional UI
 // ---------------------------------------------------
-$font-10: 0.64rem;    // ~10.24px (Major Third -2)
-$font-12: 0.75rem;    // 12px     (Manual UI)
-$font-13: 0.8rem;     // ~12.8px  (Major Third -1)
-$font-14: 0.875rem;   // 14px     (Manual UI)
-$font-16: 1rem;       // 16px     (Base & Major Third 0)
-$font-18: 1.125rem;   // 18px     (Manual UI)
-$font-20: 1.25rem;    // 20px     (Major Third 1)
-$font-24: 1.5rem;     // 24px     (Manual UI)
-$font-25: 1.5625rem;  // 25px     (Major Third 2)
-$font-31: 1.953rem;   // ~31.25px (Major Third 3)
-$font-32: 2rem;       // 32px     (Manual UI)
-$font-39: 2.441rem;   // ~39.06px (Major Third 4)
-$font-40: 2.5rem;     // 40px     (Manual UI)
-$font-48: 3rem;       // 48px     (Manual UI)
-$font-49: 3.051rem;   // ~48.83px (Major Third 5)
-$font-61: 3.815rem;   // ~61.04px (Major Third 6)
-$font-64: 4rem;       // 64px     (Manual UI)
+$font-10: clamp(0.6rem, 0.55rem + 0.25vw, 0.64rem);    // ~10.24px (Major Third -2) [FLUIDO]
+$font-12: 0.75rem;                                     // 12px     (Manual UI)      [ESTÁTICO]
+$font-13: clamp(0.75rem, 0.65rem + 0.5vw, 0.8rem);     // ~12.8px  (Major Third -1) [FLUIDO]
+$font-14: 0.875rem;                                    // 14px     (Manual UI)      [ESTÁTICO]
+$font-16: clamp(0.875rem, 0.75rem + 0.6vw, 1rem);      // 16px     (Base & MT 0)    [FLUIDO]
+$font-18: 1.125rem;                                    // 18px     (Manual UI)      [ESTÁTICO]
+$font-20: clamp(1.125rem, 0.95rem + 0.85vw, 1.25rem);  // 20px     (Major Third 1)  [FLUIDO]
+$font-24: 1.5rem;                                      // 24px     (Manual UI)      [ESTÁTICO]
+$font-25: clamp(1.3125rem, 1.05rem + 1.3vw, 1.5625rem);// 25px     (Major Third 2)  [FLUIDO]
+$font-31: clamp(1.5625rem, 1.2rem + 1.8vw, 1.953rem);  // ~31.25px (Major Third 3)  [FLUIDO]
+$font-32: 2rem;                                        // 32px     (Manual UI)      [ESTÁTICO]
+$font-39: clamp(1.953rem, 1.45rem + 2.5vw, 2.441rem);  // ~39.06px (Major Third 4)  [FLUIDO]
+$font-40: 2.5rem;                                      // 40px     (Manual UI)      [ESTÁTICO]
+$font-48: 3rem;                                        // 48px     (Manual UI)      [ESTÁTICO]
+$font-49: clamp(2.5rem, 1.9rem + 3.2vw, 3.051rem);     // ~48.83px (Major Third 5)  [FLUIDO]
+$font-61: clamp(3.051rem, 2.2rem + 4vw, 3.815rem);     // ~61.04px (Major Third 6)  [FLUIDO]
+$font-64: 4rem;                                        // 64px     (Manual UI)      [ESTÁTICO]
 
 // ---------------------------------------------------
 // Font Weight Scale

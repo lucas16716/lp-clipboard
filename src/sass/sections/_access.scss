@@ -1,0 +1,4 @@
+@use "../abstracts/tokens" as token;
+
+.access__image { margin-top: token.$gutter; }
+

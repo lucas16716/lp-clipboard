@@ -1,0 +1,36 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+$bg-footer: token.$blue-footer;
+$color-lucas-signature: token.$gray-signature;
+$color-couto-signature: token.$blue-signature;
+
+.footer {
+  padding: calc(2 * token.$gutter);
+  background-color: $bg-footer;
+
+  .footer__container {
+    margin-bottom: calc(2 * token.$gutter);
+
+    @include mix.respond(xl) {
+      flex-direction: column;
+      gap: calc(2 * token.$gutter);
+    }
+  }
+  .footer__list {
+    @include mix.respond(lg) {
+      flex-direction: column;
+    }
+  }
+
+  .footer-copy {
+    border-top: 1px solid token.$gray-500;
+    padding-top: calc(2 * token.$gutter);
+    gap: 7px;
+
+    a { letter-spacing: 0; }
+
+    .lucas { color: $color-lucas-signature; }
+    .couto { color: $color-couto-signature; }
+  }
+}

@@ -1,0 +1,15 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+.hero {
+    min-height: 100vh;
+    min-height: 100dvh;
+    background: url(/assets/media/img/bg-header-desktop.png) no-repeat center;
+    background-size: cover;
+
+    @include mix.respond(sm) { background-image: url(/assets/media/img/bg-header-mobile.png); }
+}
+
+.hero__logo { margin-bottom: token.$gutter; }
+.hero__description { max-width: 50ch; }
+.hero__actions { margin-top: token.$gutter; @include mix.respond(sm) { flex-direction: column; margin-top: 0; } }

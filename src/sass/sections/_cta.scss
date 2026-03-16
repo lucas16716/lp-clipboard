@@ -1,0 +1,16 @@
+@use "../abstracts/tokens" as token;
+@use "../abstracts/mixins" as mix;
+
+.cta {
+  padding-inline: token.$gutter;
+  margin-bottom: calc(6 * token.$gutter);
+
+  .cta__description { max-width: 50ch; }
+  .cta__actions {
+    margin-top: token.$gutter;
+    @include mix.respond(sm) {
+      flex-direction: column;
+      margin-top: 0;
+    }
+  }
+}
