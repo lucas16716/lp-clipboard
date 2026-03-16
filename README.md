@@ -4,7 +4,7 @@
 
 # Landing Page • Clipboard
 
-**Landing Page responsiva do Clipboard desenvolvida com AXIS — desafio do Frontend Mentor**
+**Landing Page responsiva do Clipboard — desafio do Frontend Mentor**
 
 [![Licença](https://img.shields.io/badge/Licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)&nbsp;
 [![Status](https://img.shields.io/badge/Status-Concluído-e8e4de?style=flat-square&labelColor=10b981&color=1c1b2e)](https://lucas16716.github.io/lp-clipboard/)&nbsp;
