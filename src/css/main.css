@@ -33,7 +33,7 @@ body {
 
 @font-face {
   font-family: "Clash Display";
-  src: url("/assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
+  src: url("assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
 }
 html {
   -webkit-font-smoothing: antialiased;
@@ -1159,7 +1159,7 @@ ul, ol {
 
 .footer {
   padding: 3rem;
-  background-color: hsl(233, 100%, 93%);
+  background-color: #f5f6f7;
 }
 .footer .footer__container {
   margin-bottom: 3rem;
