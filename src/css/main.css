@@ -1035,7 +1035,7 @@ ul, ol {
 }
 @media (max-width: 575.98px) {
   .hero {
-    background-image: url(assets/media/img/bg-header-mobile.png);
+    background-image: url(../assets/media/img/bg-header-mobile.png);
   }
 }
 

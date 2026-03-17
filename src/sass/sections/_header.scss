@@ -7,7 +7,7 @@
     background: url(../assets/media/img/bg-header-desktop.png) no-repeat center;
     background-size: cover;
 
-    @include mix.respond(sm) { background-image: url(assets/media/img/bg-header-mobile.png); }
+    @include mix.respond(sm) { background-image: url(../assets/media/img/bg-header-mobile.png); }
 }
 
 .hero__logo { margin-bottom: token.$gutter; }
