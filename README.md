@@ -8,10 +8,10 @@
 
 *Prática de arquitetura Sass, design tokens e layout responsivo com AXIS*
 
-[![Finalidade Estudo](https://img.shields.io/badge/finalidade-estudo-e8e4de?style=flat-square&labelColor=orange&color=1c1b2e)](https://github.com/lucas16716/axis)&nbsp;
-[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)&nbsp;
 [![Status](https://img.shields.io/badge/status-concluído-e8e4de?style=flat-square&labelColor=10b981&color=1c1b2e)](https://lucas16716.github.io/lp-clipboard/)&nbsp;
-[![Feito com AXIS](https://img.shields.io/badge/desenvolvido%20com-AXIS-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)](https://github.com/lucas16716/axis)
+[![Feito com AXIS](https://img.shields.io/badge/desenvolvido%20com-AXIS-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)](https://github.com/lucas16716/axis)&nbsp;
+[![Finalidade Estudo](https://img.shields.io/badge/finalidade-estudo-e8e4de?style=flat-square&labelColor=orange&color=1c1b2e)](https://github.com/lucas16716/axis)&nbsp;
+[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)
 
 
 </div>
