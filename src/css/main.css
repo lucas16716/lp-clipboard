@@ -1030,7 +1030,7 @@ ul, ol {
 .hero {
   min-height: 100vh;
   min-height: 100dvh;
-  background: url(/assets/media/img/bg-header-desktop.png) no-repeat center;
+  background: url(assets/media/img/bg-header-desktop.png) no-repeat center;
   background-size: cover;
 }
 @media (max-width: 575.98px) {
