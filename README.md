@@ -2,14 +2,17 @@
 
 <img src="assets/svg/logo.svg" width="110" height="110" alt="Logo Clipboard"/>
 
-# Landing Page • Clipboard
+# Clipboard
 
-**Landing Page responsiva do Clipboard — desafio do Frontend Mentor**
+**Landing Page desenvolvida a partir do desafio do Frontend Mentor**
 
-[![Licença](https://img.shields.io/badge/Licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)&nbsp;
-[![Status](https://img.shields.io/badge/Status-Concluído-e8e4de?style=flat-square&labelColor=10b981&color=1c1b2e)](https://lucas16716.github.io/lp-clipboard/)&nbsp;
-[![Feito com AXIS](https://img.shields.io/badge/Desenvolvido%20com-AXIS-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)](https://github.com/lucas16716/axis)&nbsp;
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Desafio-e8e4de?style=flat-square&labelColor=6c63ff&color=1c1b2e)](https://www.frontendmentor.io)
+*Prática de arquitetura Sass, design tokens e layout responsivo com AXIS*
+
+[![Finalidade Estudo](https://img.shields.io/badge/finalidade-estudo-e8e4de?style=flat-square&labelColor=orange&color=1c1b2e)](https://github.com/lucas16716/axis)&nbsp;
+[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)&nbsp;
+[![Status](https://img.shields.io/badge/status-concluído-e8e4de?style=flat-square&labelColor=10b981&color=1c1b2e)](https://lucas16716.github.io/lp-clipboard/)&nbsp;
+[![Feito com AXIS](https://img.shields.io/badge/desenvolvido%20com-AXIS-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)](https://github.com/lucas16716/axis)
+
 
 </div>
 
@@ -42,8 +45,8 @@ O objetivo não foi apenas replicar o layout — foi aplicar o [AXIS](https://gi
 
 | Tecnologia | Uso |
 |---|---|
-| HTML5 | Marcação semântica com meta tags de SEO e Open Graph |
-| Sass (SCSS) | Arquitetura AXIS com design tokens |
+| HTML5 | Código semântico e acessível com meta tags de SEO e Open Graph |
+| Sass (SCSS) | Arquitetura AXIS |
 | CSS | Compilado e minificado via Live Sass Compiler |
 
 <h2 id="estrutura">ESTRUTURA</h2>
