@@ -33,7 +33,8 @@ body {
 
 @font-face {
   font-family: "Clash Display";
-  src: url(../assets/fonts/ClashDisplay-Variable.ttf) format("truetype");
+  src: url("../assets/fonts/ClashDisplay-Variable.ttf") format("truetype");
+  font-display: swap;
 }
 html {
   -webkit-font-smoothing: antialiased;
